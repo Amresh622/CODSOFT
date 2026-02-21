@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 600px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input,
+select {
+  padding: 8px;
+  margin: 10px;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #4facfe;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #007bff;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
